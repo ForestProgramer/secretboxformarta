@@ -1,0 +1,13 @@
+/* Стилі для навігаційної панелі */
+.navbar-brand {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #000000;
+}
+
+/* Стилі для списку закладів */
+.list-group-item {
+    height: 150px; /* Збільшення висоти cell */
+    border: 1px solid #000000; /* Чорний бордер */
+    margin-bottom: 30px; /* Відступи між cell */
+}

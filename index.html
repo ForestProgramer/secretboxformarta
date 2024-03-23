@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запрошення на побачення</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Підключення вашого CSS файлу -->
+    <style>
+        /* Додаткові стилі для елементів списку */
+        .custom-rounded {
+            border-radius: 30px; /* Заокруглення кутів на 30px */
+            overflow: hidden; /* Приховує зайвий контент, що виходить за межі */
+            border: 2px solid; /* Задано товщину бордера */
+            border-color: #000000;
+            padding-left: 0;
+            padding-top: 0; /* Відступ від лівого краю cell */
+             /* Заокруглення кутів на 30px */
+        }
+        .custom-image {
+           width: 100%; /* Ширина зображення (30% від ширини cell) */
+           height: 100%; /* Зрівнюємо висоту з cell */
+           float: left; /* Вирівнюємо зображення зліва */
+           margin-right: 10px; /* Додатковий відступ справа */
+        }
+        .custom-text a, .custom-address {
+            overflow: hidden; /* Обрізаємо зайвий текст */
+            text-overflow: ellipsis; /* Додаємо місце з трійною крапкою (...) для відображення обрізаного тексту */
+            white-space: nowrap; /* Забороняємо перенесення рядка */
+            font-size: 18px; /* Розмір шрифту */
+            font-family: 'Lato', sans-serif; /* Шрифт */
+            color: #000000; /* Колір шрифту */
+            text-decoration: none; /* Видаляємо підкреслення для гіперпосилань */
+        }
+        .custom-text a {
+            color: #000000; /* Колір шрифту для головного лейбла */
+        }
+       .custom-address {
+            color: #808080; /* Колір шрифту для адреси */
+            font-size: 14px;
+            font-family: 'Lato', sans-serif; 
+        }
+        .custom-checkbox {
+            margin-left: auto; /* Вирівнюємо чекбокс вправо */
+            margin-right: 20px; /* Задаємо відступ справа */
+        }
+        .rounded-corners {
+            border-radius: 20px; /* Заокруглення кутів */
+        }
+    </style>
+</head>
+<body>
+    <!-- Навігаційна панель -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Marta wanna date</a>
+    </nav>
+
+    <!-- Заголовок і опис -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <!-- <h1>Запрошення на побачення</h1> -->
+                <!-- <h3>Обери одне із закладів, де ми можемо зустрітися</h3> -->
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-action" style="border-radius: 30px; overflow: hidden; border: 0.5px solid; border-color: #000000; padding-left: 0; padding-top: 0;">
+                    <div class="row">
+                        <div class="col-4" style="background-color: #000000;">
+                           <img src="moment.png" alt="Фотографія закладу" class="custom-image">
+                        </div>
+                        <div class="col-4">
+                            <!-- Вміст другого div -->
+                        </div>
+                        <div class="col-2">
+                            <!-- Вміст третього div -->
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Кнопка "Написати мені" -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="https://www.instagram.com/your_username" target="_blank" class="btn btn-primary btn-lg">Написати мені</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Підключення скриптів Bootstrap та jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
